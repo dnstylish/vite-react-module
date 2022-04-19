@@ -6,9 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "watch": "tsdx watch",
-    "build": "vite build",
-    "build:types": "tsc -m amd -t ESNext -d --isolatedModules false  --moduleResolution node --esModuleInterop --jsx react --outFile dist/index.js src/index.tsx && rm -rf dist/index.js ",
+    "watch": "vite build --watch",
     "watch:tsdx": "tsdx watch",
     "build:tsdx": "tsdx build",
     "build:env": "sed 's/=.*/=/' .env > .env.example",
