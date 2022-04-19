@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-full {
+    @apply w-full h-full object-cover
+}
+
+.animate {
+    @apply transition duration-300 ease-in-out
+}
+
+.image-hover-zoom {
+    @apply hover:scale-110 transform
+}
